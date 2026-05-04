@@ -1,84 +1,53 @@
 ---
-layout: default
+layout: page
 title: The Science
-description: Understanding how organisms respond to their thermal environment is the foundation of predicting climate change impacts on biodiversity.
-tag: Thermal Ecology
-permalink: /pages/science/
+permalink: /the-science/
 ---
 
-<div class="page-header">
-  <div class="container">
-    <p class="page-tag">Thermal Ecology</p>
-    <h1>The Science Behind TrEnCh</h1>
-    <p class="lead">Understanding how organisms respond to their thermal environment is the foundation for predicting climate change impacts on biodiversity.</p>
-  </div>
+# Intro to biophysical models
+## Experience the world like an insect basking in the sun.
+
+<div class="science-images">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597683653180-ERNXOSX0686HOE2PWADS/field.jpg?format=original" alt="Field work" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597683652865-QMKAD8XIOJ2CM97JEFRP/field2.jpg?format=original" alt="Field work 2" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597683653771-WRAT7C2IHU6J17S813BP/grasshopper.jpg?format=original" alt="Grasshopper" loading="lazy">
 </div>
 
-<section class="section">
-  <div class="container">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start;">
-      <div>
-        <h2>Why air temperature isn't enough</h2>
-        <p>Climate change models often predict ecological responses using coarse measurements of air temperature at 2-meter height. But most organisms live close to the ground, and their body temperatures are determined by a complex interplay of solar radiation, air temperature, wind, and surface contact—not just air temperature alone.</p>
-        <p>Animals experience their environment at much finer resolution, responding to changes in environmental conditions at the scale of minutes and meters. A butterfly on a sun-warmed rock may be 15°C hotter than the air temperature recorded at a nearby weather station.</p>
-        <div class="callout" style="margin-top:1.5rem;">
-          <p>"It all starts with thermal ecology and biophysical models—the tools to translate what we measure in the environment into what organisms actually experience."</p>
-        </div>
-      </div>
-      <div>
-        <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734603914-B5V4WM5Z66NOX8FB11YV/image1.jpg" alt="Infrared thermal image showing organisms experiencing heat" width="500" height="400" loading="lazy" style="border-radius:0.75rem;width:100%;object-fit:cover;">
-      </div>
-    </div>
-  </div>
-</section>
+---
 
-<section class="section section-alt">
-  <div class="container">
-    <p class="section-label">Types of Models</p>
-    <h2 class="section-title">Our modeling framework</h2>
-    <div class="findings-grid">
-      <div class="finding-card">
-        <h3>Microclimate Models</h3>
-        <p>Air temperatures are generally measured at 2m, but most organisms live close to the ground. Microclimate models scale temperature and wind speed data down to where organisms actually live—including soil temperature profiles critical for many insects and reptiles.</p>
-      </div>
-      <div class="finding-card">
-        <h3>Biophysical Models</h3>
-        <p>A biophysical model estimates how heat losses to and gains from the environment balance to determine an organism's body temperature. The largest heat source is usually absorbed solar radiation; animals also lose heat via radiation, convection, conduction, and evaporation.</p>
-      </div>
-      <div class="finding-card">
-        <h3>Developmental Models</h3>
-        <p>We raise butterflies in the lab to measure the thermal performance curves linking temperature to development rates, growth, and reproduction—the foundation for forecasting phenological shifts under climate change.</p>
-      </div>
-      <div class="finding-card">
-        <h3>Demographic Models</h3>
-        <p>Population growth rate depends on the distribution of individual body temperatures across the landscape and time of day. These models integrate microclimate, biophysical, and life-history data to project population viability under climate scenarios.</p>
-      </div>
-      <div class="finding-card">
-        <h3>Evolutionary Models</h3>
-        <p>Estimates of fitness-weighted population growth rates act as quantitative genetic models by incorporating variances and covariances in traits underlying thermal performance, enabling forecasts of evolutionary responses to climate change.</p>
-      </div>
-      <div class="finding-card">
-        <h3>Infrared Imagery</h3>
-        <p>Infrared cameras offer a unique opportunity to see biophysical properties in real time—watching organisms heat up, cool down, and transfer heat throughout their environment. We use IR imagery to make thermal ecology intuitive and accessible.</p>
-      </div>
-    </div>
-  </div>
-</section>
+## INFRARED imagery
+### Seeing the world from a thermal perspective
 
-<section class="section">
-  <div class="container">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;">
-      <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609579-3H7P2ZIN3V32XV0Y5SUQ/image4.jpg" alt="Infrared image showing thermal variation in natural environment" width="500" height="400" loading="lazy" style="border-radius:0.75rem;width:100%;object-fit:cover;">
-      <div>
-        <p class="section-label">Infrared Imagery</p>
-        <h2>Seeing the world from a thermal perspective</h2>
-        <p>Infrared imagery offers a unique opportunity to see biophysical properties in real time. We can watch organisms heat up, cool down, and generally transfer heat back and forth throughout their environment.</p>
-        <p>In the TrEnCh Project, we use infrared imagery to help people see the world from a thermal perspective because we believe it's an intuitive first step to understanding microclimate and the impacts of warming.</p>
-        <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:1.5rem;">
-          <a href="https://bioone.org/journals/The-American-Biology-Teacher/volume-81/issue-7/abt.2019.81.7.520/The-Pedagogical-Potential-of-Infrared-Cameras-in-Biology-Education/10.1525/abt.2019.81.7.520.full" target="_blank" rel="noopener" class="btn-trench">IR cameras in education</a>
-          <a href="https://www.sciencedirect.com/science/article/pii/S1095643316300435" target="_blank" rel="noopener" class="btn-trench-outline" style="color:var(--color-primary);border-color:var(--color-primary);">IR in research</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<div class="ir-images">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734603914-B5V4WM5Z66NOX8FB11YV/image1.jpg?format=original" alt="IR image 1" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734604362-2T8CK55VNAT4UEZRTEME/image2.jpg?format=original" alt="IR image 2" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609579-3H7P2ZIN3V32XV0Y5SUQ/image4.jpg?format=original" alt="IR image 4" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734613085-4TMSTWYCFESEKQO7D3ZO/image5.jpg?format=original" alt="IR image 5" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734614431-BI4X7JYP4VSTM240V2P3/image6.jpg?format=original" alt="IR image 6" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609098-30GD3EZ3AWR5S03MSGGC/image3.jpg?format=original" alt="IR image 3" loading="lazy">
+</div>
+
+Infrared imagery offers a unique opportunity to see biophysical properties in real time. We can watch organisms heat up, cool down, and generally transfer heat back and forth throughout their environment. In the TrEnCh Project, we use infrared imagery to help people see the world from a thermal perspective because we believe it's an intuitive first step to understanding microclimate and the impacts of warming.
+
+**More about using IR cameras for education:** [here](https://bioone.org/journals/The-American-Biology-Teacher/volume-81/issue-7/abt.2019.81.7.520/The-Pedagogical-Potential-of-Infrared-Cameras-in-Biology-Education/10.1525/abt.2019.81.7.520.full){:target="_blank"}.  
+**More about using IR cameras for thermal biology research:** [here](https://www.sciencedirect.com/science/article/pii/S1095643316300435){:target="_blank"} and [here](https://www.tandfonline.com/doi/abs/10.1179/136821910X12695060594165){:target="_blank"}.
+
+**Scroll down to learn how you can participate**
+
+---
+
+### Bringing infrared imagery to Instagram
+
+As part of the project, we share infrared cameras that attach to smartphones, to encourage project members to explore the thermal conditions of their own environment. Let us know if you'd be interested in participating!
+
+**[Follow us on Instagram @trenchproject](https://www.instagram.com/trenchproject){:target="_blank"}** for images exploring the thermal complexities of everyday life.
+
+#### Guidelines for our Instagram account
+
+We want to highlight the thermal complexities of nature. Examples include landscapes with variation in sun and shade or different types of surfaces. Animals and plants showing thermal variability or seen in thermally variable landscapes are perfect. Objects and people are okay too, if aligned with the goal of helping students and the public understand why temperatures vary and how that might influence thermal stress and sensitivity to climate change. Any style and length of caption is fine. For education purposes, it's best to describe the thermal variation and why it occurs.
+
+#### How to get your images featured on our account
+
+We create most of our images using an inexpensive FLIR ONE camera attached to a smart phone. The camera's hybrid visual-IR images can facilitate interpretation over traditional IR cameras. FLIR ONEs are also easier to carry around than a traditional IR camera. However, images from any IR camera are welcome.
+
+To have your IR image featured on our Instagram account, tag us in your photo [@TrEnChProject](https://www.instagram.com/trenchproject){:target="_blank"}. We welcome images that can be paired with IR images to aid interpretation.

@@ -1,112 +1,82 @@
 ---
 layout: home
 title: Home
-permalink: /
 ---
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║           HERO SECTION           ║ -->
-<!-- ╚══════════════════════════════════╝ -->
-<section class="trench-hero" aria-label="Site introduction">
-  <div class="container">
-    <p class="hero-acronym">TrEnCh · Translating Environmental Change</p>
-    <h1>Thinking <strong class="accent">beyond air temperature</strong> to understand how organisms experience climate change</h1>
-    <p class="hero-lead">Climate change models often predict ecological responses using coarse measurements of air temperature. But animals experience their environment at much finer resolution—responding to changes at the scale of minutes and meters. We build the tools to bridge that gap.</p>
-    <div style="display:flex;gap:1rem;flex-wrap:wrap;">
-      <a href="/pages/science/" class="btn-trench">Discover our science <i data-lucide="arrow-right" style="width:16px;height:16px;"></i></a>
-      <a href="/pages/tools/" class="btn-trench-outline">Explore our tools</a>
-    </div>
+<div class="hero-banner">
+  <div class="hero-inner">
+    <h1>Thinking <strong>beyond air temperature</strong> to understand how organisms experience climate change</h1>
+    <a href="/the-science" class="btn-hero">Discover our science &gt;</a>
+  </div>
+</div>
+
+<section class="overview-section">
+  <div class="overview-images">
+    <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605207433272-NB5H6XI4X12NQ2MCMN6J/image1.jpg?format=original" alt="Thermal ecology" loading="lazy">
+    <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605207435096-OA0FEX3PTIXFOZDBNU6E/image4.jpg?format=original" alt="Thermal ecology field work" loading="lazy">
+    <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605207437976-WVYLO3F87JFV72ZPL706/image5.jpg?format=original" alt="Organisms and climate" loading="lazy">
+    <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605207440894-M6CAYC305WS6EXS0ZDCU/image6.jpg?format=original" alt="TrEnCh project" loading="lazy">
+  </div>
+  <div class="overview-text">
+    <h2><strong>TrEnCh</strong>&nbsp;Tools for <strong>TR</strong>anslating <strong>EN</strong>vironmental <strong>CH</strong>ange into organismal responses</h2>
+    <p>Climate change models often predict ecological responses using coarse measurements of air temperature. But animals experience their environment at much finer resolution, responding to changes in environmental conditions at the scale of minutes and meters. We provide computational and visualization tools that translate coarse air temperature models into fine-scale predictors of how animals and ecosystems will respond to climate change. If we're going to effectively fight climate change, we need to understand what it means for the plants, animals, and ecosystems on our planet (photos: J. Martin, M. Logan, G. Tattersall).</p>
+    <a href="/about" class="text-link">Learn more &gt;</a>
   </div>
 </section>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║        OVERVIEW / MISSION        ║ -->
-<!-- ╚══════════════════════════════════╝ -->
-<section class="section section-alt">
-  <div class="container">
-    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;">
-      <div>
-        <p class="section-label">Our Mission</p>
-        <h2 class="section-title"><strong>TrEnCh</strong> — Tools for <strong style="color:var(--color-primary)">TR</strong>anslating <strong style="color:var(--color-primary)">EN</strong>vironmental <strong style="color:var(--color-primary)">CH</strong>ange into organismal responses</h2>
-        <p style="font-size:var(--text-base);color:var(--color-text-muted);line-height:1.7;max-width:54ch;">Some of the tools we offer extract fine-scale microclimate conditions from coarse-scale climate data. Others translate microclimate—air and surface temperatures, radiation, wind—into animal body temperatures to calculate energy balances and thermal stress.</p>
-        <blockquote class="callout" style="margin-top:1.5rem;">
-          <p>Our goal is to build case studies of how animals are impacted by climate change to improve our approach to climate change biology education, policy, and research.</p>
-        </blockquote>
-        <a href="/pages/about/" class="btn-trench" style="margin-top:1rem;">Learn more →</a>
-      </div>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
-        <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1600718805950-TW6KZQW7JXWQTNOXVQF0/IR2654.jpg" alt="Infrared thermal image of organisms in landscape" width="300" height="300" loading="lazy" style="border-radius:0.75rem;object-fit:cover;width:100%;aspect-ratio:1;">
-        <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1600804373401-E8UZ8HA2CEUNHLSRS23Z/GrasshopperBiophys-01.png" alt="Grasshopper biophysical model diagram" width="300" height="300" loading="lazy" style="border-radius:0.75rem;object-fit:cover;width:100%;aspect-ratio:1;">
-        <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597184067213-R3IWEGH36IIB25LYIM76/tablet.png" alt="TrEnCh tools on tablet" width="300" height="300" loading="lazy" style="border-radius:0.75rem;object-fit:cover;width:100%;aspect-ratio:1;grid-column:span 2;">
+<section class="our-work-section">
+  <h2>Browse our work</h2>
+
+  <div class="work-grid">
+    <div class="work-card">
+      <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1600718805950-TW6KZQW7JXWQTNOXVQF0/IR2654.jpg?format=original" alt="Infrared science" loading="lazy">
+      <div class="work-card-text">
+        <h3><strong>See our science in action</strong></h3>
+        <p>Discover our flagship projects with <a href="/butterfly">Colias butterfly</a> and <a href="/grasshopper">grasshopper</a> resurveys, which we use to explore the physical and ecological consequences of climate change. For these projects, we put microclimate and biophysical models to work, to understand ecological and evolutionary change.</p>
+        <a href="/case-studies" class="text-link">Learn more &gt;</a>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║          BROWSE OUR WORK         ║ -->
-<!-- ╚══════════════════════════════════╝ -->
-<section class="section">
-  <div class="container">
-    <p class="section-label">Browse Our Work</p>
-    <h2 class="section-title">Three pillars of the TrEnCh project</h2>
-    <div class="card-grid card-grid-3">
-      <div class="card">
-        <img class="card-img" src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1600718805950-TW6KZQW7JXWQTNOXVQF0/IR2654.jpg" alt="Infrared wildlife imagery from field research" width="400" height="225" loading="lazy">
-        <div class="card-body">
-          <p class="card-label">Science</p>
-          <h3 class="card-title">See our science in action</h3>
-          <p class="card-text">Discover our flagship projects on <em>Colias</em> butterflies and grasshoppers, exploring the physical and ecological consequences of climate change.</p>
-          <a href="/pages/case-studies/" class="card-link">Learn more <i data-lucide="arrow-right" style="width:14px;height:14px;"></i></a>
-        </div>
+    <div class="work-card">
+      <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1600804373401-E8UZ8HA2CEUNHLSRS23Z/GrasshopperBiophys-01.png?format=original" alt="Grasshopper biophysical model" loading="lazy">
+      <div class="work-card-text">
+        <h3><strong>Discover the basics of thermal ecology</strong></h3>
+        <p>Climate change is a formidable threat to biodiversity, but people don't often understand the ecological implications of 2-degrees of warming or how air temperature translates to the fitness of animals. It all starts with thermal ecology and biophysical models.</p>
+        <a href="/the-science" class="text-link">Learn more &gt;</a>
       </div>
-      <div class="card">
-        <img class="card-img" src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1600804373401-E8UZ8HA2CEUNHLSRS23Z/GrasshopperBiophys-01.png" alt="Biophysical model diagram for grasshoppers" width="400" height="225" loading="lazy">
-        <div class="card-body">
-          <p class="card-label">Thermal Ecology</p>
-          <h3 class="card-title">Discover the basics of thermal ecology</h3>
-          <p class="card-text">Climate change is a formidable threat to biodiversity. It all starts with thermal ecology and biophysical models that link air temperature to organism fitness.</p>
-          <a href="/pages/science/" class="card-link">Learn more <i data-lucide="arrow-right" style="width:14px;height:14px;"></i></a>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img" src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597183513919-8BTKF2I58JQQW55KPUJFLaptopscroll5.gif" alt="TrEnCh tools demo on laptop" width="400" height="225" loading="lazy">
-        <div class="card-body">
-          <p class="card-label">Tools</p>
-          <h3 class="card-title">Harness the power of prediction</h3>
-          <p class="card-text">Part of our mission is to create and share tools that empower others to forecast ecological responses to climate change—open source on GitHub.</p>
-          <a href="/pages/tools/" class="card-link">Learn more <i data-lucide="arrow-right" style="width:14px;height:14px;"></i></a>
-        </div>
+    </div>
+
+    <div class="work-card">
+      <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1594656558091-Y5P5N92BIYKOC6OMELB0/75397717150453956338370127171194859472090_1n.jpg?format=original" alt="Prediction tools" loading="lazy">
+      <div class="work-card-text">
+        <h3><strong>Harness the power of prediction</strong></h3>
+        <p>Part of the mission of the TrEnCh project is to create and share tools that empower others to forecast ecological responses to climate change. Here you can find a variety of computational and data visualization tools that we've been working on.</p>
+        <a href="/tools" class="text-link">Learn more &gt;</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║        PROJECT HIGHLIGHTS        ║ -->
-<!-- ╚══════════════════════════════════╝ -->
-<section class="section section-dark">
-  <div class="container">
-    <p class="section-label" style="color:#7fd8c8;">Project Highlights</p>
-    <h2 class="section-title" style="color:white;">It's time for better biological models and stronger climate action plans</h2>
-    <p style="color:oklch(1 0 0 / 0.72);max-width:60ch;margin-bottom:var(--space-8);">Our project is driven by a question begging to be answered by the IPCC: climate change may increase average temperatures by 1.5°C or 2°C—we have only a coarse understanding of what those mean for biodiversity. We need to know whether organisms can adapt fast enough in response to climate change.</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:var(--space-8);">
-      <div><div class="stat-number" style="color:#7fd8c8;">7000+</div><div class="stat-label" style="color:oklch(1 0 0/0.6);">Grasshoppers collected over 50 years of climate change</div></div>
-      <div><div class="stat-number" style="color:#7fd8c8;">60+</div><div class="stat-label" style="color:oklch(1 0 0/0.6);">Years of <em>Colias</em> butterfly resurvey data in Colorado mountains</div></div>
-      <div><div class="stat-number" style="color:#7fd8c8;">Open</div><div class="stat-label" style="color:oklch(1 0 0/0.6);">Source tools on GitHub, freely available to all researchers</div></div>
-      <div><div class="stat-number" style="color:#7fd8c8;">NSF</div><div class="stat-label" style="color:oklch(1 0 0/0.6);">Rules of Life grant funding the next phase of research</div></div>
-    </div>
+<section class="grasshopper-highlight">
+  <div class="highlight-text">
+    <p class="highlight-label">project highlight</p>
+    <h2>Alexander Grasshopper Resurvey</h2>
+    <p>Entomologist César Nufio inherited 250 dusty boxes during his postdoc at CU-Boulder. Each of the boxes contained thousands upon thousands of grasshoppers.</p>
+    <p><strong>What followed was nearly a decade of untangling the mystery of grasshopper physiology and resurveying the insects, following 50 years of climate change.</strong></p>
+    <a href="/grasshopper" class="text-link">See the case study &gt;</a>
   </div>
 </section>
 
-<!-- ╔══════════════════════════════════╗ -->
-<!-- ║           JOIN US CTA            ║ -->
-<!-- ╚══════════════════════════════════╝ -->
-<section class="section section-alt" style="text-align:center;">
-  <div class="container-narrow">
-    <p class="section-label">Join the TrEnCh Project Community</p>
-    <h2 class="section-title">Help us empower others to think beyond air temperature</h2>
-    <p style="font-size:var(--text-base);color:var(--color-text-muted);margin-bottom:var(--space-8);">The TrEnCh project aims to build a community applying biophysical ecology to improve models of biological responses to climate change. We provide computational and visualization tools that can improve our climate change models by (1) extracting fine spatial and temporal scale microclimate conditions and (2) mapping microclimate conditions to regions of thermal stress.</p>
-    <a href="/pages/about/#join" class="btn-trench">Become a project member today</a>
-  </div>
+<section class="join-section">
+  <h2>JOIN THE TRENCH PROJECT COMMUNITY</h2>
+  <p>The TrEnCh project aims to build a community applying biophysical ecology to improve models of biological responses to climate change. Join our community to be added to this page.</p>
+  <a href="/about#join" class="btn-primary">Join us</a>
+</section>
+
+<section class="moving-needle">
+  <h2>It's time for better biological models and stronger climate action plans</h2>
+  <p>#ClimateActionNow</p>
+  <h3>But we're here to put them to work for <strong>conservation.</strong></h3>
+  <p>Accurate projections of climate change responses requires moving beyond the assumption that organisms' body temperature equals air temperature, which can result in errors of tens of degrees and can obscure patterns of thermal stress. The TrEnCh project builds accessible computational and visualization tools for translating environmental change into organismal responses. We provide open and reproducible avenues to share thermal ecology.</p>
+  <a href="/tools" class="text-link">See our tools &gt;</a>
 </section>
