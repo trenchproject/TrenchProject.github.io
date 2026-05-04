@@ -1,21 +1,22 @@
-<footer class="site-footer">
+<footer class="trench-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <a href="{{ '/' | relative_url }}" style="display:flex;align-items:center;gap:0.5rem;text-decoration:none;">
+        <a href="{{ '/' | relative_url }}" class="footer-logo-link">
           {% include logo.html %}
-          <span style="color:white;font-family:var(--font-display);font-size:1.1rem;font-weight:700;">TrEnCh Project</span>
+          <span>TrEnCh Project</span>
         </a>
         <p>Building computational and visualization tools that translate environmental change into organismal responses. NSF-supported research at the University of Washington.</p>
+        <p>© {{ 'now' | date: "%Y" }} TrEnCh Project</p>
       </div>
       <div class="footer-col">
         <h4>Navigate</h4>
         <ul>
-          <li><a href="{{ '/pages/science/' | relative_url }}">The Science</a></li>
-          <li><a href="{{ '/pages/case-studies/' | relative_url }}">Case Studies</a></li>
-          <li><a href="{{ '/pages/tools/' | relative_url }}">Tools</a></li>
-          <li><a href="{{ '/pages/about/' | relative_url }}">About the Project</a></li>
-          <li><a href="{{ '/pages/news/' | relative_url }}">Latest News</a></li>
+          <li><a href="{{ '/the-science/' | relative_url }}">The Science</a></li>
+          <li><a href="{{ '/case-studies/' | relative_url }}">Case Studies</a></li>
+          <li><a href="{{ '/tools/' | relative_url }}">Tools</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About the Project</a></li>
+          <li><a href="{{ '/news/' | relative_url }}">Latest News</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -23,14 +24,11 @@
         <ul>
           <li><a href="https://github.com/trenchproject" target="_blank" rel="noopener">GitHub</a></li>
           <li><a href="https://www.instagram.com/trenchproject" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="http://faculty.washington.edu/lbuckley" target="_blank" rel="noopener">UW Biology Lab</a></li>
           <li><a href="https://trench-ed.trenchproject.com" target="_blank" rel="noopener">TrEnCh-ED</a></li>
           <li><a href="https://map.trenchproject.com" target="_blank" rel="noopener">TrEnCh-Map</a></li>
+          <li><a href="http://faculty.washington.edu/lbuckley" target="_blank" rel="noopener">UW Biology Lab</a></li>
         </ul>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© {{ 'now' | date: "%Y" }} TrEnCh Project · University of Washington · NSF Rules of Life Grant · We appreciate code and input from Bryan Helmuth and Eric Riddell.</p>
     </div>
   </div>
 </footer>

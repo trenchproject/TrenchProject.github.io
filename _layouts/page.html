@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
-<div class="page-header">
+<div class="page-header-band">
   <div class="container">
-    {% if page.tag %}<p class="page-tag">{{ page.tag }}</p>{% endif %}
     <h1>{{ page.title }}</h1>
     {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
   </div>
 </div>
-<div class="section">
+<div class="page-body">
   <div class="container">
     {{ content }}
   </div>

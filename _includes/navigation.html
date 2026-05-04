@@ -1,17 +1,20 @@
-<nav class="navbar navbar-expand-md" role="navigation" aria-label="Main navigation">
+<nav class="navbar navbar-expand-md trench-nav" role="navigation" aria-label="Main navigation">
   <div class="container">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">
+    <a class="navbar-brand trench-brand" href="{{ '/' | relative_url }}">
       {% include logo.html %}
-      TrEnCh Project
+      <span>TrEnCh Project</span>
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navMenu" aria-controls="navMenu"
+            aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navMenu">
       <ul class="navbar-nav ms-auto">
         {% for item in site.navigation %}
         <li class="nav-item">
-          <a class="nav-link{% if page.url == item.url %} active{% endif %}" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          <a class="nav-link{% if page.url == item.url %} active{% endif %}"
+             href="{{ item.url | relative_url }}">{{ item.title }}</a>
         </li>
         {% endfor %}
       </ul>

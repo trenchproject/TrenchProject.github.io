@@ -11,24 +11,22 @@ remote_theme: LeNPaul/Millennial
 
 navigation:
   - title: The Science
-    url: /pages/science/
+    url: /the-science/
   - title: Case Studies
-    url: /pages/case-studies/
+    url: /case-studies/
   - title: Tools
-    url: /pages/tools/
+    url: /tools/
   - title: About the Project
-    url: /pages/about/
+    url: /about/
   - title: Latest News
-    url: /pages/news/
+    url: /news/
 
 footer-links:
   github: trenchproject
   instagram: trenchproject
 
 markdown: kramdown
-permalink: /:categories/:title/
-paginate: 5
-paginate_path: "/blog/page:num/"
+permalink: pretty
 
 plugins:
   - jekyll-paginate
@@ -38,5 +36,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor

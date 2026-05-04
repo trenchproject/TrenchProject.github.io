@@ -4,27 +4,16 @@ title: The Science
 permalink: /the-science/
 ---
 
-# Intro to biophysical models
-## Experience the world like an insect basking in the sun.
-
-<div class="science-images">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597683653180-ERNXOSX0686HOE2PWADS/field.jpg?format=original" alt="Field work" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597683652865-QMKAD8XIOJ2CM97JEFRP/field2.jpg?format=original" alt="Field work 2" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1597683653771-WRAT7C2IHU6J17S813BP/grasshopper.jpg?format=original" alt="Grasshopper" loading="lazy">
-</div>
-
----
-
 ## INFRARED imagery
 ### Seeing the world from a thermal perspective
 
 <div class="ir-images">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734603914-B5V4WM5Z66NOX8FB11YV/image1.jpg?format=original" alt="IR image 1" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734604362-2T8CK55VNAT4UEZRTEME/image2.jpg?format=original" alt="IR image 2" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609579-3H7P2ZIN3V32XV0Y5SUQ/image4.jpg?format=original" alt="IR image 4" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734613085-4TMSTWYCFESEKQO7D3ZO/image5.jpg?format=original" alt="IR image 5" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734614431-BI4X7JYP4VSTM240V2P3/image6.jpg?format=original" alt="IR image 6" loading="lazy">
-  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609098-30GD3EZ3AWR5S03MSGGC/image3.jpg?format=original" alt="IR image 3" loading="lazy">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734603914-B5V4WM5Z66NOX8FB11YV/image1.jpg?format=original" alt="IR image 1" loading="lazy" width="400" height="400">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734604362-2T8CK55VNAT4UEZRTEME/image2.jpg?format=original" alt="IR image 2" loading="lazy" width="400" height="400">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609579-3H7P2ZIN3V32XV0Y5SUQ/image4.jpg?format=original" alt="IR image 4" loading="lazy" width="400" height="400">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734613085-4TMSTWYCFESEKQO7D3ZO/image5.jpg?format=original" alt="IR image 5" loading="lazy" width="400" height="400">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734614431-BI4X7JYP4VSTM240V2P3/image6.jpg?format=original" alt="IR image 6" loading="lazy" width="400" height="400">
+  <img src="https://images.squarespace-cdn.com/content/v1/5f029c111a4abe37ec08cebe/1605734609098-30GD3EZ3AWR5S03MSGGC/image3.jpg?format=original" alt="IR image 3" loading="lazy" width="400" height="400">
 </div>
 
 Infrared imagery offers a unique opportunity to see biophysical properties in real time. We can watch organisms heat up, cool down, and generally transfer heat back and forth throughout their environment. In the TrEnCh Project, we use infrared imagery to help people see the world from a thermal perspective because we believe it's an intuitive first step to understanding microclimate and the impacts of warming.
@@ -40,11 +29,11 @@ Infrared imagery offers a unique opportunity to see biophysical properties in re
 
 As part of the project, we share infrared cameras that attach to smartphones, to encourage project members to explore the thermal conditions of their own environment. Let us know if you'd be interested in participating!
 
-**[Follow us on Instagram @trenchproject](https://www.instagram.com/trenchproject){:target="_blank"}** for images exploring the thermal complexities of everyday life.
+[**Follow us on Instagram @trenchproject**](https://www.instagram.com/trenchproject){:target="_blank"} for images exploring the thermal complexities of everyday life.
 
 #### Guidelines for our Instagram account
 
-We want to highlight the thermal complexities of nature. Examples include landscapes with variation in sun and shade or different types of surfaces. Animals and plants showing thermal variability or seen in thermally variable landscapes are perfect. Objects and people are okay too, if aligned with the goal of helping students and the public understand why temperatures vary and how that might influence thermal stress and sensitivity to climate change. Any style and length of caption is fine. For education purposes, it's best to describe the thermal variation and why it occurs.
+We want to highlight the thermal complexities of nature. Examples include landscapes with variation in sun and shade or different types of surfaces. Animals and plants showing thermal variability or seen in thermally variable landscapes are perfect. Objects and people are okay too, if aligned with the goal of helping students and the public understand why temperatures vary and how that might influence thermal stress and sensitivity to climate change.
 
 #### How to get your images featured on our account
 
