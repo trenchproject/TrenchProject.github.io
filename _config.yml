@@ -1,19 +1,42 @@
-# Site Build Settings
+title: TrEnCh Project
+description: >-
+  Tools for TRanslating ENvironmental CHange into organismal responses.
+  We provide computational and visualization tools that translate coarse air
+  temperature models into fine-scale predictors of how animals and ecosystems
+  respond to climate change.
+url: "https://trenchproject.github.io"
+baseurl: ""
 
-# jekyll-paginate configuration
-paginate:            5
+remote_theme: LeNPaul/Millennial
 
-# Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+navigation:
+  - title: The Science
+    url: /pages/science/
+  - title: Case Studies
+    url: /pages/case-studies/
+  - title: Tools
+    url: /pages/tools/
+  - title: About the Project
+    url: /pages/about/
+  - title: Latest News
+    url: /pages/news/
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "Functional Resurveys"
-description:	       "Examining organismal function through time to detect climate change responses"
-author:              "Theme:Paul Le"
+footer-links:
+  github: trenchproject
+  instagram: trenchproject
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
