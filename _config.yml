@@ -1,38 +1,23 @@
-title: TrEnCh Project
-description: >-
-  Tools for TRanslating ENvironmental CHange into organismal responses.
-  We provide computational and visualization tools that translate coarse air
-  temperature models into fine-scale predictors of how animals and ecosystems
-  respond to climate change.
-url: "https://trenchproject.github.io"
-baseurl: ""
+# Site Build Settings
 
-remote_theme: LeNPaul/Millennial
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-navigation:
-  - title: The Science
-    url: /the-science/
-  - title: Case Studies
-    url: /case-studies/
-  - title: Tools
-    url: /tools/
-  - title: About the Project
-    url: /about/
-  - title: Latest News
-    url: /news/
+# Tell Jekyll to also look in the pages/ folder
+include:             [pages]
 
-footer-links:
-  github: trenchproject
-  instagram: trenchproject
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+title:               "TrEnCh Project"
+description:         "Tools for TRanslating ENvironmental CHange into organismal responses"
+author:              "Buckley Lab, University of Washington"
 
-markdown: kramdown
-permalink: pretty
+# Set the baseurl to your repository name if publishing to https://<user>.github.io/<repo>/
+# e.g. baseurl: "/trenchproject"  (leave empty "" for a user/organization or custom-domain site)
+baseurl:             ""
 
-plugins:
-  - jekyll-paginate
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-
-exclude:
-  - Gemfile
-  - Gemfile.lock
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

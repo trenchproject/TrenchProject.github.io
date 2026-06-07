@@ -1,0 +1,22 @@
+---
+layout: trench-page
+title: Latest News
+permalink: /latest-news
+---
+
+<section class="trench-hero">
+  <h1>LATEST NEWS</h1>
+  <h2>Updates from the TrEnCh Project</h2>
+</section>
+
+<section class="trench-section">
+  {% for post in site.posts %}
+    <article style="margin-bottom: 1.5rem;">
+      {% if post.image %}{% include img.html file=post.image alt=post.title %}{% endif %}
+      <h3 style="margin-bottom:0;"><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h3>
+      <p class="credit">{{ post.date | date: "%B %-d, %Y" | upcase }}</p>
+      <p>{{ post.excerpt | strip_html }}</p>
+      <a href="{{ site.github.url }}{{ post.url }}" class="learn-more">Read more &gt;</a>
+    </article>
+  {% endfor %}
+</section>

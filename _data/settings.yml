@@ -1,24 +1,25 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'millennial-3'
+  disqus_shortname: ''
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
 
 menu:
-- {name: 'About',  url: 'about'}
-- {name: 'WA Butterflies', url: 'WAbutterflies'}
-- {name: 'CO Grasshoppers',       url: 'COgrasshoppers'}
-- {name: 'CO Butterflies',      url: 'CObutterflies'}
+- {name: 'The Science',      url: 'the-science'}
+- {name: 'Infrared Imagery', url: 'infrared-modeling'}
+- {name: 'Case Studies',     url: 'case-studies'}
+- {name: 'Butterfly',        url: 'butterfly'}
+- {name: 'Grasshopper',      url: 'grasshopper'}
+- {name: 'Tools',            url: 'tools'}
+- {name: 'About',            url: 'about'}
+- {name: 'Latest News',      url: 'latest-news'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'twitter', link:    'https://twitter.com/ecolforecaster'}
-- {icon: 'instagram', link:  'https://instagram.com/trenchproject'}
-- {icon: 'envelope', link:   'mailto:lbuckley@uw.edu'}
-- {icon: 'rss-square', link: 'feed.xml'}
-# - {icon: 'rss-square', link: 'rss-feed.xml'}
+- {icon: 'instagram', link: 'https://www.instagram.com/trenchproject/'}
+- {icon: 'github',    link: 'https://github.com/trenchproject'}
 
 # Customize site text
 pagination:

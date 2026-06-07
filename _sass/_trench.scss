@@ -1,0 +1,205 @@
+// ============================================================
+//  TrEnCh Project custom styles
+//  Layered on top of the Millennial theme. Provides the hero
+//  banners, full-width content sections, image placeholders,
+//  team grids and call-to-action blocks used to mirror the
+//  original trenchproject.com layout.
+// ============================================================
+
+$trench-green:   #4a7c3f;
+$trench-accent:  #c0392b;
+$trench-light:   #f5f5f0;
+$trench-muted:   #6b6b6b;
+
+// --- Wider container for the rich content pages ---------------
+.trench-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+
+  h1 { margin-top: 2.2rem; letter-spacing: 0.02em; }
+  h2 { margin-top: 0.6rem; color: $trench-muted; font-weight: 400; }
+  h3 { margin-top: 1.6rem; }
+
+  img { max-width: 100%; border-radius: 4px; }
+
+  p { color: #333; }
+
+  .caption {
+    font-style: italic;
+    font-size: 0.85rem;
+    color: $trench-muted;
+    text-align: center;
+    margin-top: 0.4rem;
+  }
+  .credit {
+    font-size: 0.75rem;
+    color: $trench-muted;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+}
+
+// --- Hero banner ---------------------------------------------
+.trench-hero {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 60px 20px;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #2c3e50 0%, $trench-green 100%);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 6px;
+
+  h1, h2 { color: white; }
+  h1 { font-size: 2.4rem; }
+  h2 { font-weight: 300; opacity: 0.95; }
+}
+
+// --- Content section -----------------------------------------
+.trench-section {
+  padding: 1.4rem 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child { border-bottom: none; }
+
+  .section-label {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.8rem;
+    color: $trench-accent;
+    font-weight: 700;
+    margin-top: 1.2rem;
+  }
+}
+
+.trench-lead {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+// --- Callout / emphasised statement --------------------------
+.trench-callout {
+  background: $trench-light;
+  border-left: 4px solid $trench-green;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+// --- Image placeholder ---------------------------------------
+.img-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 160px;
+  background: repeating-linear-gradient(
+    45deg, #ececec, #ececec 12px, #f6f6f6 12px, #f6f6f6 24px);
+  border: 1px dashed #bbb;
+  border-radius: 6px;
+  color: $trench-muted;
+  font-family: $code-font-family;
+  font-size: 0.8rem;
+  padding: 1rem;
+  margin: 1rem 0 0.4rem;
+}
+
+// --- Grids (photos, team, partners, findings) ----------------
+.trench-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.trench-grid--2 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.trench-grid--3 { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+
+// --- Team member card ----------------------------------------
+.team-card {
+  text-align: center;
+
+  .img-placeholder {
+    min-height: 150px;
+    border-radius: 50%;
+    width: 150px;
+    margin: 0 auto 0.5rem;
+  }
+  .team-name { font-weight: 700; margin: 0.3rem 0 0; }
+  .team-role { color: $trench-accent; font-size: 0.85rem; margin: 0.1rem 0; }
+  .team-desc { font-size: 0.85rem; color: #444; }
+}
+
+// --- Findings card -------------------------------------------
+.finding {
+  .finding-title { font-weight: 700; margin-top: 0.6rem; }
+}
+
+// --- Buttons / "learn more" links ----------------------------
+.trench-btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.5rem 1.1rem;
+  background: $trench-green;
+  color: white !important;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+
+  &:hover { background: #3c6633; }
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  color: $trench-accent !important;
+}
+
+// --- Homepage feature cards ----------------------------------
+.feature-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+.feature-card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  padding: 1.2rem;
+  h3 { margin-top: 0; }
+}
+
+// --- Footer nav (overrides) ----------------------------------
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem 1rem;
+  padding: 1rem 0 0.5rem;
+  line-height: 1.4;
+}
+.footer-link {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $trench-muted !important;
+}
+.footer-social { margin: 0.4rem 0; line-height: 1.4; }
+
+// --- Responsive ----------------------------------------------
+@media (max-width: 600px) {
+  .trench-hero { min-height: 220px; padding: 40px 16px; }
+  .trench-hero h1 { font-size: 1.7rem; }
+}

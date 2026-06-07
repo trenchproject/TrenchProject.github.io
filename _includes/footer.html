@@ -1,34 +1,20 @@
-<footer class="trench-footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <a href="{{ '/' | relative_url }}" class="footer-logo-link">
-          {% include logo.html %}
-          <span>TrEnCh Project</span>
-        </a>
-        <p>Building computational and visualization tools that translate environmental change into organismal responses. NSF-supported research at the University of Washington.</p>
-        <p>© {{ 'now' | date: "%Y" }} TrEnCh Project</p>
-      </div>
-      <div class="footer-col">
-        <h4>Navigate</h4>
-        <ul>
-          <li><a href="{{ '/the-science/' | relative_url }}">The Science</a></li>
-          <li><a href="{{ '/case-studies/' | relative_url }}">Case Studies</a></li>
-          <li><a href="{{ '/tools/' | relative_url }}">Tools</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About the Project</a></li>
-          <li><a href="{{ '/news/' | relative_url }}">Latest News</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Find Us</h4>
-        <ul>
-          <li><a href="https://github.com/trenchproject" target="_blank" rel="noopener">GitHub</a></li>
-          <li><a href="https://www.instagram.com/trenchproject" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="https://trench-ed.trenchproject.com" target="_blank" rel="noopener">TrEnCh-ED</a></li>
-          <li><a href="https://map.trenchproject.com" target="_blank" rel="noopener">TrEnCh-Map</a></li>
-          <li><a href="http://faculty.washington.edu/lbuckley" target="_blank" rel="noopener">UW Biology Lab</a></li>
-        </ul>
-      </div>
-    </div>
+<footer class="footer">
+  <nav class="footer-nav">
+    <a href="{{ site.github.url }}/" class="footer-link">HOME</a>
+    <a href="{{ site.github.url }}/about" class="footer-link">ABOUT THE PROJECT</a>
+    <a href="{{ site.github.url }}/the-science" class="footer-link">BIOPHYSICAL MODELING</a>
+    <a href="{{ site.github.url }}/infrared-modeling" class="footer-link">INFRARED IMAGERY</a>
+    <a href="{{ site.github.url }}/tools" class="footer-link">TOOLS</a>
+    <a href="{{ site.github.url }}/butterfly" class="footer-link">BUTTERFLY COLORATION</a>
+    <a href="{{ site.github.url }}/grasshopper" class="footer-link">GRASSHOPPER PHENOLOGY</a>
+  </nav>
+  <div class="footer-social">
+    {% for item in site.data.settings.social %}
+      <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    {% endfor %}
+  </div>
+  <div class="footer-description">
+    &copy; 2020 TrEnCh Project. Site originally designed by
+    <a href="https://www.impactmedialab.com/" target="_blank">Impact Media Lab</a>.
   </div>
 </footer>

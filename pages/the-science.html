@@ -1,0 +1,66 @@
+---
+layout: trench-page
+title: The Science
+permalink: /the-science
+---
+
+<section class="trench-hero">
+  <h1>MICROCLIMATE AND BIOPHYSICAL MODELING</h1>
+  <h2>Translating air temperature into metrics that matter.</h2>
+</section>
+
+<section class="trench-section">
+  <p>Species continue to respond to climate change in unexpected ways. For example, we have seen ranges shift and population abundances change in directions opposite of what models predict. Such surprises highlight the need to improve climate change models by translating our typical climate metrics (i.e. air temperature) into variables that better reflect how plants, animals, and ecosystems experience their environment.</p>
+  <p class="trench-lead">This is where biophysical models come into play.</p>
+
+  {% include img.html file="marine-iguana-ir.jpg" alt="thermal image of a basking marine iguana" %}
+  <p class="caption">This marine iguana is basking after foraging in the cool sea. Radiation will soon elevate its body temperature above air temperature (photo: G. Tattersall)</p>
+</section>
+
+<section class="trench-section">
+  <h2>Differences in body form and coloration can lead two organisms to experience the same environment very differently.</h2>
+  {% include img.html file="seastar-mussels.jpg" alt="intertidal sea star and mussels" %}
+  <p class="caption">(Photo: B. Helmuth)</p>
+  <p>For instance, the sea star and mussels experience the same intertidal environment differently. These differences in organism experience can shape patterns of thermal stress and, ultimately, influence the interactions between organisms in the environment. The TrEnCh project aims to build accessible computational and visualization tools for translating environmental change into organismal responses.</p>
+</section>
+
+<section class="trench-section">
+  <h2>Predicting the ecological consequences of climate change requires 3 steps:</h2>
+  <div class="trench-grid trench-grid--3">
+    <div>
+      {% include img.html file="ModStep1.jpg" alt="step 1 diagram" %}
+      <p class="section-label">#1</p>
+      <p>We must study the environment at scales relevant to physiology. This means time measured at the scale of activity, and microclimate measured at the scale of physical experience.</p>
+    </div>
+    <div>
+      {% include img.html file="ModStep2.jpg" alt="step 2 diagram" %}
+      <p class="section-label">#2</p>
+      <p>We must translate microclimate into body temperature, using the relationships between heat transfer and organism phenotype. These patterns can be integrated with organismal performance data to predict consequences for survival, development, and reproduction.</p>
+    </div>
+    <div>
+      {% include img.html file="ModStep3.png" alt="step 3 diagram" %}
+      <p class="section-label">#3</p>
+      <p>We must combine fitness components to predict population demography and extinction risk. Ultimately, allowing us to translate air temperature into metrics that matter.</p>
+    </div>
+  </div>
+</section>
+
+<section class="trench-section">
+  <h2>Types of models</h2>
+
+  <h1>MICROCLIMATE MODELS</h1>
+  <h3>Sensing the environment at scales relevant to organismal biology</h3>
+  <p>Air temperatures are generally measured at a height of 2m, but most organisms live close to the ground. Microclimate models provide a tool to scale temperature and wind speed data down to where organisms actually live. For example, soil temperatures strongly influence how organisms experience their environment but are rarely measured. Thus, we can use heat balance equations to model the soil temperature profile and estimate soil surface temperatures. Deploying sensors at varying heights is important to parameterizing microclimate models.</p>
+
+  <h1>BIOPHYSICAL MODELS</h1>
+  <h3>Translating environmental conditions into organismal responses</h3>
+  <p>A first step in understanding how organisms respond to their environment is to estimate how heat losses to and gains from the environment balance to determine the organism&rsquo;s body temperature. Such a biophysical model is conceptually as simple as balancing a bank account, but the estimation of heat flows can be complicated. The largest source of heat in most cases in the absorption of solar radiation. Animals radiate energy at a rate proportional to their body temperature. Air or water flow across the organism exchanges heat by convection. Contact with surfaces results in heat exchange via conduction.</p>
+</section>
+
+<section class="trench-section">
+  <h2>The tools for translating climate conditions into biophysical experiences have long lingered in books.</h2>
+  <h2>But we&rsquo;re here to put them to work for conservation.</h2>
+  <p>Accurate projections of climate change responses requires moving beyond the assumption that organism&rsquo;s body temperature equals air temperature, which can result in errors of tens of degrees and can obscure patterns of thermal stress. The TrEnCh project builds accessible computational and visualization tools for translating environmental change into organismal responses. We provide open and reproducible avenues to share thermal ecology.</p>
+  <a href="{{ site.github.url }}/tools" class="learn-more">See our tools &gt;</a>
+  {% include img.html file="vizualizations.gif" alt="visualization tool demo" %}
+</section>

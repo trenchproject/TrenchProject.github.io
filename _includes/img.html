@@ -1,0 +1,7 @@
+{% comment %}
+  Image placeholder include.
+  Usage: {% include img.html file="ColiasModel2.png" alt="Colias modeling framework" %}
+  When you add real images to /assets/img/, replace the placeholder block
+  below with: <img src="{{ site.github.url }}/assets/img/{{ include.file }}" alt="{{ include.alt }}">
+{% endcomment %}
+<div class="img-placeholder">[IMAGE: {{ include.file }}{% if include.alt %} — {{ include.alt }}{% endif %}]</div>
