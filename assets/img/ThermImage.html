@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CRAN: Package Thermimage</title>
+<link rel="canonical" href="https://CRAN.R-project.org/package=Thermimage">
+<link rel="stylesheet" type="text/css" href="../../CRAN_web.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="DC.identifier" content="https://CRAN.R-project.org/package=Thermimage">
+<meta name="DC.publisher" content="Comprehensive R Archive Network (CRAN)">
+<meta name="twitter:card" content="summary">
+<meta property="og:title" content="Thermimage: Thermal Image Analysis">
+<meta property="og:description" content="A collection of functions and routines for inputting thermal image video files, plotting and converting binary raw data into estimates of temperature. First published 2015-03-26. Written primarily for research purposes in biological applications of thermal images. v1 included the base calculations for converting thermal image binary values to temperatures. v2 included additional equations for providing heat transfer calculations and an import function for thermal image files (v2.2.3 fixed error importing thermal image to windows OS). v3. Added numerous functions for converting thermal image, videos, rewriting and exporting. v3.1. Added new functions to convert files. v3.2. Fixed the various functions related to finding frame times. v4.0. fixed an error in atmospheric attenuation constants, affecting raw2temp and temp2raw functions. Recommend update for use with long distance calculations. v.4.1.3 changed to frameLocates to reflect change to as.character() to format().">
+<meta property="og:image" content="https://CRAN.R-project.org/CRANlogo.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://CRAN.R-project.org/package=Thermimage">
+<style>
+  table td { vertical-align: top; }
+</style>
+</head>
+<body>
+<div class="container">
+<h2>Thermimage: Thermal Image Analysis</h2>
+<p>A collection of functions and routines for inputting thermal
+    image video files, plotting and converting binary raw data into estimates of
+    temperature.  First published 2015-03-26.  Written primarily for research purposes
+    in biological applications of thermal images.  v1 included the base calculations 
+    for converting thermal image binary values to temperatures. v2 included additional
+    equations for providing heat transfer calculations and an import function for thermal
+    image files (v2.2.3 fixed error importing thermal image to windows OS). v3. Added numerous
+    functions for converting thermal image, videos, rewriting and exporting.  
+    v3.1. Added new functions to convert files. v3.2.  Fixed the various functions related to finding frame times.
+    v4.0. fixed an error in atmospheric attenuation constants, affecting raw2temp and temp2raw functions.
+    Recommend update for use with long distance calculations. v.4.1.3 changed to frameLocates to reflect change to as.character() to format().</p>
+<table>
+<tr>
+<td>Version:</td>
+<td>4.1.3</td>
+</tr>
+<tr>
+<td>Depends:</td>
+<td>R (&ge; 2.10)</td>
+</tr>
+<tr>
+<td>Imports:</td>
+<td><a href="../tiff/index.html"><span class="CRAN">tiff</span></a>, <a href="../png/index.html"><span class="CRAN">png</span></a></td>
+</tr>
+<tr>
+<td>Suggests:</td>
+<td><a href="../fields/index.html"><span class="CRAN">fields</span></a></td>
+</tr>
+<tr>
+<td>Published:</td>
+<td>2021-09-27</td>
+</tr>
+<tr>
+<td>DOI:</td>
+<td><a href="https://doi.org/10.32614/CRAN.package.Thermimage">10.32614/CRAN.package.Thermimage</a></td>
+</tr>
+<tr>
+<td>Author:</td>
+<td>Glenn J. Tattersall</td>
+</tr>
+<tr>
+<td>Maintainer:</td>
+<td>Glenn J. Tattersall  &#x3c;&#x67;&#x74;&#x61;&#x74;&#x74;&#x65;&#x72;&#x73;&#x20;&#x61;&#x74;&#x20;&#x62;&#x72;&#x6f;&#x63;&#x6b;&#x75;&#x2e;&#x63;&#x61;&#x3e;</td>
+</tr>
+<tr>
+<td>BugReports:</td>
+<td><a href="https://github.com/gtatters/Thermimage/issues" target="_top"><span class="GitHub">https://github.com/gtatters/Thermimage/issues</span></a></td>
+</tr>
+<tr>
+<td>License:</td>
+<td><a href="../../licenses/GPL-2"><span class="CRAN">GPL-2</span></a> | <a href="../../licenses/GPL-3"><span class="CRAN">GPL-3</span></a> [expanded from: GPL (&ge; 2)]</td>
+</tr>
+<tr>
+<td>URL:</td>
+<td><a href="https://cran.r-project.org/package=Thermimage" target="_top">https://cran.r-project.org/package=Thermimage</a>,
+<a href="https://github.com/gtatters/Thermimage" target="_top"><span class="GitHub">https://github.com/gtatters/Thermimage</span></a></td>
+</tr>
+<tr>
+<td>NeedsCompilation:</td>
+<td>no</td>
+</tr>
+<tr>
+<td>SystemRequirements:</td>
+<td>exiftool, perl, ffmpeg, imagemagick</td>
+</tr>
+<tr>
+<td>Citation:</td>
+<td><a href="citation.html"><span class="CRAN">Thermimage citation info</span></a> </td>
+</tr>
+<tr>
+<td>CRAN&nbsp;checks:</td>
+<td><a href="../../checks/check_results_Thermimage.html"><span class="CRAN">Thermimage results</span></a></td>
+</tr>
+</table>
+<h4>Documentation:</h4>
+<table>
+<tr>
+<td>Reference&nbsp;manual:</td>
+<td>
+ <a href="refman/Thermimage.html"><span class="CRAN">Thermimage.html</span></a> ,  <a href="Thermimage.pdf"><span class="CRAN">Thermimage.pdf</span></a> 
+</td>
+</tr>
+</table>
+<h4>Downloads:</h4>
+<table>
+<tr>
+<td> Package&nbsp;source: </td>
+<td> <a href="../../../src/contrib/Thermimage_4.1.3.tar.gz"> <span class="CRAN"> Thermimage_4.1.3.tar.gz </span> </a> </td>
+</tr>
+<tr>
+<td> Windows&nbsp;binaries: </td>
+<td> r-devel: <a href="../../../bin/windows/contrib/4.7/Thermimage_4.1.3.zip"><span class="CRAN">Thermimage_4.1.3.zip</span></a>, r-release: <a href="../../../bin/windows/contrib/4.6/Thermimage_4.1.3.zip"><span class="CRAN">Thermimage_4.1.3.zip</span></a>, r-oldrel: <a href="../../../bin/windows/contrib/4.5/Thermimage_4.1.3.zip"><span class="CRAN">Thermimage_4.1.3.zip</span></a> </td>
+</tr>
+<tr>
+<td> macOS&nbsp;binaries: </td>
+<td> r-release (arm64): <a href="../../../bin/macosx/sonoma-arm64/contrib/4.6/Thermimage_4.1.3.tgz"><span class="CRAN">Thermimage_4.1.3.tgz</span></a>, r-oldrel (arm64): <a href="../../../bin/macosx/big-sur-arm64/contrib/4.5/Thermimage_4.1.3.tgz"><span class="CRAN">Thermimage_4.1.3.tgz</span></a>, r-release (x86_64): <a href="../../../bin/macosx/big-sur-x86_64/contrib/4.6/Thermimage_4.1.3.tgz"><span class="CRAN">Thermimage_4.1.3.tgz</span></a>, r-oldrel (x86_64): <a href="../../../bin/macosx/big-sur-x86_64/contrib/4.5/Thermimage_4.1.3.tgz"><span class="CRAN">Thermimage_4.1.3.tgz</span></a> </td>
+</tr>
+<tr>
+<td> Old&nbsp;sources: </td>
+<td> <a href="https://CRAN.R-project.org/src/contrib/Archive/Thermimage"> <span class="CRAN"> Thermimage archive </span> </a> </td>
+</tr>
+</table>
+<h4>Reverse dependencies:</h4>
+<table>
+<tr>
+<td>Reverse&nbsp;imports:</td>
+<td><a href="../BioThermR/index.html"><span class="CRAN">BioThermR</span></a></td>
+</tr>
+</table>
+<h4>Linking:</h4>
+<p>Please use the canonical form
+<a href="https://CRAN.R-project.org/package=Thermimage"><span class="CRAN"><samp>https://CRAN.R-project.org/package=Thermimage</samp></span></a>
+to link to this page.</p>
+</div>
+</body>
+</html>

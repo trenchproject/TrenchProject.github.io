@@ -10,11 +10,8 @@ menu:
 - {name: 'The Science',      url: 'the-science'}
 - {name: 'Infrared Imagery', url: 'infrared-modeling'}
 - {name: 'Case Studies',     url: 'case-studies'}
-- {name: 'Butterfly',        url: 'butterfly'}
-- {name: 'Grasshopper',      url: 'grasshopper'}
 - {name: 'Tools',            url: 'tools'}
 - {name: 'About',            url: 'about'}
-- {name: 'Latest News',      url: 'latest-news'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
