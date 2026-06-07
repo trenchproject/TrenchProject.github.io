@@ -4,7 +4,7 @@ title: About the Project
 permalink: /about
 ---
 
-<section class="trench-hero" style="background-image: linear-gradient(rgba(20,40,30,0.5), rgba(20,40,30,0.5)), url('{{ site.github.url }}/assets/img/GrasshopperIR.jpg');">
+<section class="trench-hero" style="background-image: url('{{ site.github.url }}/assets/img/beetle+blue.webp');">
   <h1>TrEnCh</h1>
   <h2>Tools for <strong>TR</strong>anslating <strong>EN</strong>vironmental <strong>CH</strong>ange into organismal responses</h2>
 </section>
@@ -18,7 +18,7 @@ permalink: /about
 <section class="trench-section">
   <h1>The TrEnCh Team</h1>
 
-  <h2>Current Development Team</h2>
+  <h2>Development Team</h2>
   <div class="trench-grid">
     <div class="team-card">
       {% include img.html file="lauren-buckley.jpg" alt="Lauren Buckley" %}
@@ -44,33 +44,7 @@ permalink: /about
       <p class="team-role">Research scientist</p>
       <p class="team-desc">Contributed to TrenchR, TrenchR tutorials, and visualizations.</p>
     </div>
-  </div>
-
-  <h2>Guidance Team</h2>
-  <div class="trench-grid">
-    <div class="team-card">
-      {% include img.html file="joel-kingsolver.jpg" alt="Joel Kingsolver" %}
-      <p class="team-name">Joel Kingsolver</p>
-      <p class="team-role">U North Carolina</p>
-      <p class="team-desc">Joel has advised TrEnCh-R and is a collaborator on the butterfly and grasshopper ecological and evolutionary forecasting projects.</p>
-    </div>
-    <div class="team-card">
-      {% include img.html file="mike-kearney.jpg" alt="Mike Kearney" %}
-      <p class="team-name">Mike Kearney</p>
-      <p class="team-role">U Melbourne</p>
-      <p class="team-desc">Mike leads the aligned NicheMapR project and has consulted or collaborated on many project components.</p>
-    </div>
-    <div class="team-card">
-      {% include img.html file="ray-huey.jpg" alt="Ray Huey" %}
-      <p class="team-name">Ray Huey</p>
-      <p class="team-role">U Washington</p>
-      <p class="team-desc">Ray has applied his thermal ecology expertise to consult on most TrEnCh project components.</p>
-    </div>
-  </div>
-
-  <h2>Past Developers</h2>
-  <div class="trench-grid">
-    <div class="team-card">
+        <div class="team-card">
       {% include img.html file="tony-cannistra.jpg" alt="Tony Cannistra" %}
       <p class="team-name">Tony Cannistra</p>
       <p class="team-role">Graduate student</p>
@@ -96,49 +70,51 @@ permalink: /about
     </div>
   </div>
   <p>We appreciate code and other input from Bryan Helmuth and Eric Riddell.</p>
-</section>
+  </div>
+
+  <h2>Guidance Team</h2>
+  <ul class="team-list" role="list">
+    <li class="team-item">
+      <p class="team-name">Joel Kingsolver</p>
+      <p class="team-role">U North Carolina</p>
+      <p class="team-desc">Joel has advised TrEnCh-R and is a collaborator on the butterfly and grasshopper ecological and evolutionary forecasting projects.</p>
+    </li>
+    <li class="team-item">
+      <p class="team-name">Mike Kearney</p>
+      <p class="team-role">U Melbourne</p>
+      <p class="team-desc">Mike leads the aligned NicheMapR project and has consulted or collaborated on many project components.</p>
+    </li>
+    <li class="team-item">
+      <p class="team-name">Ray Huey</p>
+      <p class="team-role">U Washington</p>
+      <p class="team-desc">Ray has applied his thermal ecology expertise to consult on most TrEnCh project components.</p>
+  </div>
 
 <section class="trench-section">
   <h2>Our partners</h2>
   <div class="trench-grid">
     <div class="team-card">
-      {% include img.html file="ThermoNiche.jpg" alt="NicheMapR" %}
+      {% include img.html file="ThermoNiche.webp" alt="NicheMapR" %}
       <p class="team-desc">NicheMapR &ndash; an R package</p>
     </div>
     <div class="team-card">
-      {% include img.html file="thermimagesticker1-1.png" alt="Thermimage" %}
+      {% include img.html file="thermimagesticker1-1.webp" alt="Thermimage" %}
       <p class="team-desc">Thermimage &ndash; Thermal Image Analysis</p>
     </div>
     <div class="team-card">
-      {% include img.html file="EFI_Logo-1.jpg" alt="Ecological Forecasting Initiative" %}
+      {% include img.html file="EFI_Logo-1.webp" alt="Ecological Forecasting Initiative" %}
       <p class="team-desc">Ecological Forecasting Initiative</p>
     </div>
     <div class="team-card">
-      {% include img.html file="PEcAn.jpg" alt="The PEcAn project" %}
+      {% include img.html file="PEcAn.webp" alt="The PEcAn project" %}
       <p class="team-desc">The PEcAn project</p>
     </div>
   </div>
 </section>
 
 <section class="trench-section">
-  <h1>JOIN THE TrEnCh PROJECT COMMUNITY</h1>
-  <p>The TrEnCh project aims to build a community applying biophysical ecology to improve models of biological responses to climate change. Join our community to be added to this page.</p>
-  <!-- NOTE: The original Squarespace form posted to Squarespace. Replace the
-       action below with your own form handler (e.g. Formspree, Google Forms)
-       once the site is hosted on GitHub Pages, which cannot process form POSTs itself. -->
-  <form action="#" method="post">
-    <p><label>First Name (required)<br><input type="text" name="first_name" required></label></p>
-    <p><label>Last Name (required)<br><input type="text" name="last_name" required></label></p>
-    <p><label>Email (required)<br><input type="email" name="email" required></label></p>
-    <p><label>Tell us about yourself (required)<br>
-      <textarea name="about" rows="4" placeholder="University, Department, Connection to Biophysical Ecology, Interest in TrEnCh project, etc" required></textarea></label></p>
-    <p><button type="submit" class="trench-btn">SUBMIT</button></p>
-  </form>
-</section>
-
-<section class="trench-section">
   <h2>Acknowledgements</h2>
-  <p>The TrEnCh project is primarily supported by a National Science Foundation (NSF) Advances in Biological Informatics CAREER grant (DBI-1349865). The TrEnCh project has also benefited from additional NSF support (EF-1065638, DEB-1120062).</p>
+  <p>The TrEnCh project was primarily supported by a National Science Foundation (NSF) Advances in Biological Informatics CAREER grant (DBI-1349865). The TrEnCh project has also benefited from additional NSF support (EF-1065638, DEB-1120062).</p>
   <p><strong>Find us at UW Biology.</strong> Visit our lab website to learn about other aspects of our research investigating ecological and evolutionary responses to changing environments.</p>
   <p><strong>Find us on GitHub.</strong> TrEnCh is open-source (<a href="https://github.com/trenchproject" target="_blank">GitHub organization</a>) and built using open source software including Bootstrap, node.js, Travis CI, Express, and R.</p>
 </section>
