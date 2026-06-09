@@ -10,64 +10,78 @@ permalink: /tools
 </section>
 
 <section class="trench-section">
-  <p>Part of the mission of the TrEnCh project is to create and share tools that empower people to predict climate change responses and visualize data. Here you can find all of the tools and products we have created so far! All code is available at our <a href="https://github.com/trenchproject" target="_blank">GitHub organization</a> and we welcome contributors.</p>
+  <p>The mission of the TrEnCh project is to create and share tools that empower people to predict climate change responses and visualize data. Here you can find all of the tools and products we have created so far! All code is available at our <a href="https://github.com/trenchproject" target="_blank">GitHub organization</a> and we welcome contributors.</p>
 </section>
 
 <section class="trench-section">
   <p class="section-label">Featured tool</p>
-  <h3>TrenchR</h3>
-  {% include img.html file="TRENCH_Logo_Circle-TrenchR.webp" alt="TrenchR logo" %}
-  <p>An R package for environmental and ecological biophysics, TrenchR offers microclimate models as well as accessible energy budget models to translate microclimate into estimates of animal body temperature. We are developing our tools in collaboration with the NicheMapR initiative, which offers an R package and RShiny interfaces for more complex microclimate and biophysical models.</p>
+  <h1>TrenchR</h1>
+
+  <div style="overflow: hidden;">
+    <div style="float: right; margin: 0 0 1em 1.5em; width: 150px;">
+      {% include img.html file="TRENCH_Logo_Circle-TrenchR.webp" alt="TrenchR logo" %}
+    </div>
+    <p>An R package for environmental and ecological biophysics, TrenchR offers microclimate models as well as accessible energy budget models to translate microclimate into estimates of animal body temperature. The package is available on CRAN and described in this <a href="https://doi.org/10.1371/journal.pclm.0000139" target="_blank">paper</a>.</p>
+  </div>
+
+We offer an <a href="https://trenchproject.shinyapps.io/RShiny_MicroclimGuide/" target="_blank">interactive visualization</a> for aiding the selection of microclimate data. Once microcliamte data are selected, we offer a <a href="https://bookdown.org/huckley/microclimate_users_guide/" target="_blank">user's guide</a> for accessing the data.
+
+  TrenchR is complementary to the <a href="https://mrke.github.io/" target="_blank">NicheMapR initiative</a>, which offers an R package and RShiny interfaces for more complex microclimate and biophysical models. The package is also complementary to the <a href="https://mrke.github.io/" target="_blank">MICROCLIM</a>, which offers tools and data for microclimate modelling.</p>
   <a href="https://trenchproject.github.io/TrenchR/" target="_blank" class="trench-btn">Explore TrenchR</a>
 </section>
 
 <section class="trench-section">
-  <h3>TrEnCh-Map Visualizations</h3>
-  {% include img.html file="vizualizations.gif" alt="interactive visualizations" %}
-  <p>We offer interactive visualizations for exploring organismal responses to environmental conditions.</p>
-
-  <p><strong>Mapping ectotherm body temperatures and areas of thermal stress:</strong> This app uses biophysical models for a variety of ectothermic taxa to map recent and projected future body temperatures and areas of thermal stress across the US.</p>
-  {% include img.html file="Laptop-scroll_5.gif" alt="laptop visualization" %}
-
-  <p><strong>Lizard thermal safety margins:</strong> The app uses biophysical modeling to explore lizard body temperatures and thermal safety margins &mdash; how much warming could occur before a lizard exceeds its thermal tolerance.</p>
-  {% include img.html file="tablet.png" alt="tablet visualization" %}
-
-  <p><strong>Insect development and phenology:</strong> The app leverages a database of insect development traits to predict phenology for many species across the US.</p>
-  {% include img.html file="phone.gif" alt="phone visualization" %}
-</section>
-
-<section class="trench-section">
-  <h2>Education and outreach</h2>
-  <h3>TrEnCh-Ed</h3>
+  <h1>Education and outreach</h2>
+  <h2>TrEnCh-Ed</h2>
+   <div style="overflow: hidden;">
+    <div style="float: right; margin: 0 0 1em 1.5em; width: 150px;">
+      {% include img.html file="TRENCH_Logo_Circle-TrenchEd.webp" alt="TrenchEd logo" %}
+    </div>
   <p>We have created the TrEnCh-ed website, including interactive R Shiny applications and associated tutorials, to allow students and visitors to explore the ecological and evolutionary impacts of climate change through interacting with data.</p>
   <h3>Biophysical ecology tutorials</h3>
   <p>We&rsquo;ve developed a series of tutorials aimed at graduate students interested in biophysical ecology. The tutorials originate from a 1979 course at UW entitled &ldquo;Physical Processes in Ecosystems&rdquo; and align with the TrenchR package.</p>
 </section>
 
 <section class="trench-section">
-  <h2>Quantitative modelling tools</h2>
-  <h3>TrenchR</h3>
-  <p>TrenchR is an R package for transparent environmental and ecological biophysics. It offers microclimate models as well as accessible energy budget models to translate microclimate into estimates of animal body temperature.</p>
-  <h3>TrEnCh-IR</h3>
-  <p>TrEnCh-IR is a web service for processing, storing, and disseminating FLIR infrared imagery.</p>
+  <h1>IR Visualization</h1>
+  <h2>TrenchIR</h2>
+   <div style="overflow: hidden;">
+    <div style="float: right; margin: 0 0 1em 1.5em; width: 150px;">
+      {% include img.html file="TRENCH_Logo_Circle-TrenchIR.webp" alt="TrenchIR logo" %}
+    </div>
+  <p>TrEnCh-IR is a web service for processing and disseminating FLIR infrared imagery.</p>
 </section>
 
 <section class="trench-section">
-  <h2>Project-specific tools</h2>
+  <h1>TrEnCh-Map Visualizations</h1>
+  <div style="overflow: hidden;">
+    <div style="float: right; margin: 0 0 1em 1.5em; width: 150px;">
+      {% include img.html file="vizualizations.gif" alt="interactive visualizations" %}
+    </div>
+  <p>We created interactive visualizations for exploring organismal responses to environmental conditions. We are not currently running the server with the mapping applications, but the visualizations are offered in GitHub.</p>
+
+  <p><strong>Mapping ectotherm body temperatures and areas of thermal stress:</strong> <a href="https://github.com/trenchproject/RShiny_BiophysicalModelMap" target="_blank">The app</a> uses biophysical models for a variety of ectothermic taxa to map recent and projected future body temperatures and areas of thermal stress across the US.</p>
+
+  <p><strong>Lizard thermal safety margins:</strong> <a href="https://github.com/trenchproject/RShiny_Lizards" target="_blank">The app</a> uses biophysical modeling to explore lizard body temperatures and thermal safety margins &mdash; how much warming could occur before a lizard exceeds its thermal tolerance.</p>
+
+  <p><strong>Insect development and phenology:</strong> <a href="https://github.com/icaruso21/Insect-Phenology-Forecaster" target="_blank">The app</a> leverages a database of insect development traits to predict phenology for many species across the US.</p>
+</section>
+
+<section class="trench-section">
+  <h1>Project-specific tools</h1>
+  <div style="overflow: hidden;">
+    <div style="float: right; margin: 0 0 1em 1.5em; width: 150px;">
+      {% include img.html file="phone.gif" alt="interactive visualizations" %}
+    </div>
   <h3>Extreme value analysis for temperature data</h3>
-  <p>From a review paper on quantifying thermal extremes: Dryad Repository, GitHub Repository.</p>
-  <p>From a perspective paper on leveraging organismal biology to forecast the effects of climate change: GitHub Repository.</p>
+  <p><a href="https://github.com/lbuckley/ExtremesPTRSb" target="_blank">Code</a> for a review paper on quantifying thermal extremes.</p>
+  <p><a href="https://github.com/lbuckley/ClimateBiology/" target="_blank">Code</a> from a perspective paper on leveraging organismal biology to forecast the effects of climate change.</p>
   <h3>Model of butterfly responses to climate change</h3>
-  <p>Integrates microclimate, developmental, biophysical, demographic, and evolutionary models.</p>
-  <p>Quantitative genetic model: GitHub Repository (simpler but less documented than below).</p>
-  <p>Model at biogeographic scales: GitHub Repository.</p>
-  <h3>Spatial autoregressive models and Colias butterfly museum data</h3>
-  <p>Dryad Repository.</p>
+  <p><a href="https://github.com/lbuckley/ColiasBiogeog" target="_blank">Code</a> for a model tntegrates microclimate, developmental, biophysical, demographic, and evolutionary models.</p>
 </section>
 
 <section class="trench-section">
   <h1>THE WHY BEHIND OUR WORK</h1>
   <h2>New climate challenges demand new tools.</h2>
   <p>We provide computational and visualization tools that can improve our climate change models by (1) extracting fine spatial and temporal scale microclimate data, (2) translating microclimate conditions into animal body temperatures, and (3) mapping body temperatures and regions of thermal stress.</p>
-  <p>Want to join us in this work? <a href="{{ site.github.url }}/about" class="learn-more">Become a project member today!</a></p>
 </section>

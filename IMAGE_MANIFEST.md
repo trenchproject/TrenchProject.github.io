@@ -7,7 +7,7 @@ After adding files, follow [README → Adding images](README.md#adding-images) t
 ## Hero background images (set inline per page)
 
 | File | Page |
-|------------------------------------|------------------------------------|
+|----|----|
 | `home-hero.jpg` | Home hero (new slug — pick any landscape/banner image) |
 | `gothic2.jpg` | Butterfly hero |
 | `Grasshopper.jpg` | Grasshopper hero |
@@ -22,14 +22,14 @@ After adding files, follow [README → Adding images](README.md#adding-images) t
 
 ## The Science (`pages/the-science.html`)
 
-| File                       | Note                                          |
-|------------------------------------|------------------------------------|
-| `iguana.webp`              | Thermal image of basking marine iguana (slug) |
-| `FLIRmusselseastar3.webp`  | Intertidal sea star & mussels (slug)          |
-| `ModStep1.webp`            | Step 1 diagram                                |
-| `ModStep2.``webp`          | Step 2 diagram                                |
-| `ModStep3.``webp`          | Step 3 diagram                                |
-| `vizualizations.gif`       | Visualization demo                            |
+| File                      | Note                                          |
+|---------------------------|-----------------------------------------------|
+| `iguana.webp`             | Thermal image of basking marine iguana (slug) |
+| `FLIRmusselseastar3.webp` | Intertidal sea star & mussels (slug)          |
+| `ModStep1.webp`           | Step 1 diagram                                |
+| ``` ModStep2.``webp ```   | Step 2 diagram                                |
+| ``` ModStep3.``webp ```   | Step 3 diagram                                |
+| `vizualizations.gif`      | Visualization demo                            |
 
 ## Infrared Imagery (`pages/infrared-modeling.html`)
 
@@ -41,7 +41,7 @@ After adding files, follow [README → Adding images](README.md#adding-images) t
 ## Butterfly (`pages/butterfly.html`)
 
 | File | Note |
-|------------------------------------|------------------------------------|
+|----|----|
 | `colias.webp` | Museum specimens of *Colias meadii* (slug) |
 | `gothic1_gothicmtn&lab-1969.webp` | Watt RMBL photo |
 | `gothic2_butterflyhunters-1974.webp` | Watt RMBL photo |
@@ -55,7 +55,7 @@ After adding files, follow [README → Adding images](README.md#adding-images) t
 ## Grasshopper (`pages/grasshopper.html`)
 
 | File | Note |
-|------------------------------------|------------------------------------|
+|----|----|
 | `bust.jpg` | Bust of Gordon Alexander |
 | `2019-Niwot-Ridge.jpg` | Historical photo (orig. had space) |
 | `2026-FrontRange.png` | Historical photo |
